@@ -33,3 +33,15 @@ function fnTrocarCorDeFundo(){
     document.body.style.backgroundColor = corDeFundo
 }
 
+function fnMostrarHoraAtual(){
+    const now = new Date();
+    const hours = now.getHours();
+    const minutes = now.getMinutes();
+    const seconds = now.getSeconds();
+    alert("Hora atual: " + (hours) +":"+  (minutes) +":"+(seconds));
+}
+
+function fnTrocarTiutlo(){
+    let titulonovo = prompt("Digite o novo título para o site")
+    document.getElementById("titulo").innerText = titulonovo
+}
