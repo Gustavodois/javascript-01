@@ -45,3 +45,21 @@ function fnTrocarTiutlo(){
     let titulonovo = prompt("Digite o novo título para o site")
     document.getElementById("titulo").innerText = titulonovo
 }
+
+function fnIdiomaPortugues(){
+    document.getElementById("menu1").innerText = "Inicio"
+    document.getElementById("menu2").innerText = "Serviços"
+    document.getElementById("menu3").innerText = "Contato"
+}
+
+function fnIdiomaIngles(){
+    document.getElementById("menu1").innerText = "Home"
+    document.getElementById("menu2").innerText = "Services"
+    document.getElementById("menu3").innerText = "Contact"
+}
+
+function fnIdiomaArabicMoroccan(){
+    document.getElementById("menu1").innerText = "بدء"
+    document.getElementById("menu2").innerText = "خدمات"
+    document.getElementById("menu3").innerText = "الاتصال"
+}
