@@ -63,3 +63,13 @@ function fnIdiomaArabicMoroccan(){
     document.getElementById("menu2").innerText = "خدمات"
     document.getElementById("menu3").innerText = "الاتصال"
 }
+
+function fnBanner1(){
+    document.getElementById("banner").src="imagens/ilustracao.jpg"
+}
+function fnBanner2(){
+    document.getElementById("banner").src="imagens/ilustracao2.jpg"
+}
+function fnBanner3(){
+    document.getElementById("banner").src="imagens/ilustracao3.jpg"
+}
