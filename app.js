@@ -73,3 +73,24 @@ function fnBanner2(){
 function fnBanner3(){
     document.getElementById("banner").src="imagens/ilustracao3.jpg"
 }
+
+function fnTrocarImagem1(){
+    document.getElementById("imagem1").src="imagens/cachorro-4.jpg"
+}
+function fnVoltarImagem1(){
+    document.getElementById("imagem1").src="imagens/cachorro-1.jpg"
+}   
+
+function fnTrocarImagem2(){
+    document.getElementById("imagem2").src="imagens/cachorro-3.jpg"
+}
+function fnVoltarImagem2(){
+    document.getElementById("imagem2").src="imagens/cachorro-2.jpg"
+}   
+
+function fnTrocarImagem3(){
+    document.getElementById("imagem3").src="imagens/gato-1.jpg"
+}
+function fnVoltarImagem3(){
+    document.getElementById("imagem3").src="imagens/cachorro-3.jpg"
+}   
