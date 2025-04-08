@@ -53,10 +53,14 @@
  
         <div class="formulario">
             <h3 class="titulo-contato">Contato</h3>
+            <label class="texto"> Digite seu Nome </label>
             <input type="text" name="nome" placeholder="Digite seu Nome" required id="nome">
+            <label class="texto"> Digite seu E-mail </label>
             <input type="email" name="email" placeholder="Digite seu E-mail" required id="email">
+            <label class="texto"> Deixe uma Mensagem </label>
             <textarea name="mensagem" placeholder="Deixe uma Mensagem" rows="4" required id="mensagem"></textarea>
-            <button type="submit">Enviar</button>
+            <button type="button" onclick="fnRegistrarContato()">Enviar</button>
+            <p class="informacoes" id="informacoes"></p>
         </div>
     </main>
 
